@@ -6,3 +6,68 @@ body{
 .App{
   text-align: center;
 }
+
+.taskback{
+  background-color: royalblue;
+  border-radius: 7px;
+  margin-top: 23px;
+  padding: 10px 141px 11px 16px;
+  text-align: left;
+  font-size: 24px;
+  position: relative;
+}
+
+.taskback div{
+  display: flex;
+  align-items: center;
+}
+
+
+.taskback .tasktext{
+  flex: 1;
+}
+
+.taskback .done .tasktext{
+  text-decoration: line-through;
+  opacity: 0.3;
+}
+
+.tasknumber{
+  color: rgb(255, 208, 0);
+  border: 1px solid #000000;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  text-align: center;
+  font-size: 15px;
+  margin-right: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconswrap{
+  position:absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  width: auto;
+  display: inline-block;
+}
+
+.taskback .iconswrap span{
+  display: inline-block;
+  margin: 0px 10px 0 10px;
+  cursor: pointer;
+  color: rgb(221, 228, 228);
+}
+
+.taskback .iconswrap span:hover {
+  color: rgb(11, 241, 165);
+}
+
+.mr-20{
+  margin-right: 20px;
+}
+
+
